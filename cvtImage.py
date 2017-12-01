@@ -20,6 +20,8 @@ if __name__ == "__main__":
         for video_name in filenames:
             print("processing video: "+video_name);
             video = cv2.VideoCapture(os.path.join(parent,video_name));
+            if not os.path.exists(os.path.join(image_folder,os.path.splitext(video_name)[0])):
+                os.makedirs(os.path.join(image_folder,os.path.splitext(video_name)[0]));
             frame_cnt = 0;
             print_cnt = 0;
             while (True):
@@ -28,6 +30,6 @@ if __name__ == "__main__":
                     break;
 #                print(os.path.join(image_folder,os.path.splitext(video_name)[0]+'_{:0>5d}'.format(frame_cnt)+'.jpg'))
                 if (print_cnt%print_interval==0):
-                    cv2.imwrite(os.path.join(image_folder,os.path.splitext(video_name)[0]+'_{:0>5d}'.format(frame_cnt)+'.jpg'),frame);
+                    cv2.imwrite(os.path.join(image_folder,os.path.splitext(video_name)[0],os.path.splitext(video_name)[0]+'_{:0>5d}'.format(frame_cnt)+'.jpg'),frame);
                 frame_cnt = frame_cnt + 1;
                 print_cnt = print_cnt + 1;
