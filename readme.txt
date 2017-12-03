@@ -1,2 +1,19 @@
-å°†å¯æ‰§è¡Œæ–‡ä»¶cvtImageä¸Žå¾…å¤„ç†çš„è§†é¢‘æ”¾åœ¨åŒä¸€è·¯å¾„å†…ï¼Œæ‰§è¡Œå¯æ‰§è¡Œæ–‡ä»¶
-è¾“å‡ºç»“æžœåœ¨åŒä¸€è·¯å¾„çš„imageæ–‡ä»¶å¤¹å†…
+=====ÅäÖÃÔËÐÐ»·¾³=====
+1.°²×°python-2.7.14.amd64.msi£¬£¨²»ÒªÐÞ¸Ä°²×°Â·¾¶£¬»ò¶ÔÓ¦ÐÞ¸ÄºóÐøËùÓÐÂ·¾¶£©
+2.½«numpy-1.13.3+mkl-cp27-cp27m-win_amd64.whlºÍ
+    opencv_python-2.4.13.2-cp27-cp27m-win_amd64.whl
+    ¿½±´ÖÁC:\Python27\Script\
+3.¼üÅÌwindows+R,ÔÚÔËÐÐ¶Ô»°¿òÄÚ¼üÈëcmd£¬»Ø³µ
+4.ÊäÈë cd C:\Python27\Scripts\  »Ø³µ
+5.ÊäÈë pip.exe install numpy-1.13.3+mkl-cp27-cp27m-win_amd64.whl »Ø³µ
+6.ÊäÈë pip.exe install opencv_python-2.4.13.2-cp27-cp27m-win_amd64.whl »Ø³µ
+7.ÐÞ¸Ä»·¾³±äÁ¿£ºÔÚ ´ËµçÄÔ->ÊôÐÔ->¸ß¼¶ÏµÍ³ÉèÖÃ->¸ß¼¶->»·¾³±äÁ¿->ÏµÍ³±äÁ¿ 
+                Îª Path ±äÁ¿Ôö¼Ó C:\Python27\
+ÖÁ´Ë£¬ÔËÐÐ»·¾³ÅäÖÃ½áÊø
+=====ÔËÐÐÖ´ÐÐ½Å±¾=====
+£¨½«cvtImage.py½Å±¾ÓëËùÓÐÐèÒª×ª»»µÄÊÓÆµ·ÅÖÃÔÚÍ¬Ò»ÎÄ¼þ¼ÐÄÚ£¬ÒÔE:\videoÎªÀý£©
+1.¼üÅÌwindows+R,ÔÚÔËÐÐ¶Ô»°¿òÄÚ¼üÈëcmd£¬»Ø³µ
+2.ÊäÈë E: (¶ÔÓ¦µÄ´ÅÅÌ£©
+3.ÊäÈë cd E:\video (¶ÔÓ¦µÄÂ·¾¶£©
+4.ÊäÈë python cvtImage.py »Ø³µ£¬ÔËÐÐ£¬µÈ´ý½á¹û
+ÖÁ´Ë£¬Ö´ÐÐ½áÊø£¬½á¹ûÔÚimageÎÄ¼þ¼ÐÄÚ
